@@ -17,7 +17,7 @@ using a trained **Optimised LR** , developed from operational, geotechnical, and
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sina30nat/gp-logit-OB-UB-classifier.git
+git clone https://github.com/sina30nat/OB-UB-classifier.git
 cd gp-logit-classifier
 
 
