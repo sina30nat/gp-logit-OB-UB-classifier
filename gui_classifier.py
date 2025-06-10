@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # === Load model ===
-model_path = r"C:\Users\19030531\OneDrive - Newmont USA Limited\Personal\PhD\paper to publish 2025\Classification v2\models\logistic_regression_tuned_fitted.joblib"
+model_path = "models/logistic_regression_tuned_fitted.joblib"
 pipeline = joblib.load(model_path)
 
 # === Feature list ===
