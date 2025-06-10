@@ -1,4 +1,4 @@
-# 🛠️ GP-Logit OB/UB Classification Tool
+# 🛠️ OB/UB Classification Tool
 
 This repository contains a **Streamlit-based GUI prototype** for classifying underground drillholes as:
 
@@ -6,7 +6,7 @@ This repository contains a **Streamlit-based GUI prototype** for classifying und
 - 🚧 **Overbreak-Prone**
 - 🪨 **Underbreak-Prone**
 
-using a trained **GP-Logit model** (Genetic Programming + Logistic Regression), developed from operational, geotechnical, and design data.
+using a trained **Optimised LR** , developed from operational, geotechnical, and design data.
 
 ---
 
