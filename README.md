@@ -31,7 +31,7 @@ It will open automatically in your default browser at: http://localhost:8501
 Features
 Input Form: Enter 16 drill and blast design parameters
 
-Real-time Prediction: Uses a pre-trained Logistic Regression model
+Real-time Prediction: Uses a pre-trained Tuned Logistic Regression model
 
 Design Warnings: Examples (e.g., excessive DFE, short holes, primer location)
 
@@ -44,10 +44,10 @@ gp-logit-classifier/
 ├── requirements.txt              # List of required Python packages
 ├── models/
 │   └── logistic_regression_tuned_fitted.joblib  # Trained model
-└── README.md                     # in addition to this file
+└── README.md                     # this file
 
 
-🔬 Model Info
+Model Info
 Base model: Logistic Regression (sklearn)
 
 Tuned via: GridSearchCV with cross-validation
@@ -56,7 +56,7 @@ Features: 16 operational, design, and geotechnical parameters
 
 Use case: Supports prediction of OB UB classification for stope design evaluation in underground mining
 
-📄 Citation
+Citation
 If used in academic work, please cite the associated publication
 GitHub repository: https://github.com/sina30nat/gp-logit-OB-UB-classifier
 
