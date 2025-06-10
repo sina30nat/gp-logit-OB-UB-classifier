@@ -18,7 +18,7 @@ using a trained **Optimised LR** , developed from operational, geotechnical, and
 
 ```bash
 git clone https://github.com/sina30nat/OB-UB-classifier.git
-cd gp-logit-classifier
+cd OB-UB-classifier
 
 
 2. Install Requirements:
