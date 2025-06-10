@@ -13,7 +13,7 @@ feature_names = [
 ]
 
 # === Title ===
-st.title("Drillhole Classification Tool (GP-Logit Model)")
+st.title("Drillhole Classification Tool (Tuned Logistic Regression Model)")
 
 # === Input form ===
 st.subheader("Enter Drillhole Parameters:")
