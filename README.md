@@ -2,15 +2,15 @@
 
 This repository contains a **Streamlit-based GUI prototype** for classifying underground drillholes as:
 
-- ✅ **Balanced**
-- 🚧 **Overbreak-Prone**
-- 🪨 **Underbreak-Prone**
+- **Balanced**
+- **Overbreak-Prone**
+- **Underbreak-Prone**
 
 using a trained **Optimised LR** , developed from operational, geotechnical, and design data.
 
 ---
 
-## 📦 How to Run
+## How to Run
 
 > These instructions assume Python is installed. Use [python.org](https://www.python.org/downloads/) if needed.
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 streamlit run gui_classifier.py
 It will open automatically in your default browser at: http://localhost:8501
 
-🎯 Features
+Features
 Input Form: Enter 16 drill and blast design parameters
 
 Real-time Prediction: Uses a pre-trained Logistic Regression model
