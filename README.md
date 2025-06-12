@@ -61,3 +61,61 @@ If used in academic work, please cite the associated publication
 GitHub repository: https://github.com/sina30nat/gp-logit-OB-UB-classifier
 
 This prototype is provided for research and demonstration purposes. It is not intended for direct production use without further validation.
+
+more information about different features in the GUI can be found below:
+
+Variable Number	Parameter	Symbol	Explanation
+1	Powder Factor	PF
+Amount of explosive used per volume of rock (Kg/tonne)
+
+2	Explosive Type	ET	3 types:
+Density of 0.8 g/cc, 1.0 g/cc and 1.2g/cc
+
+3	Distance from end of drillhole to stope shape	DFE
+The distance from the end of the drillhole to the designed/planned stope shape (m)
+
+4	Spacing/ Burden ratio SB	
+Burden: Distance from point of blast to the free face (m)
+Spacing: Distance between adjacent blastholes (m)
+
+5	Primer Location	PL	
+Distance from the last primer to the end of the drillhole (m)
+
+6	Void Raio	VR	
+Ratio of void in relation to the blasted rock (%) (Chandrakar, Paul, & Sawmliana, 2021)
+
+7	Drillhole Blast/Firing Sequence	HFS	Blasting sequence for each drillhole within a ring
+
+8	Ring Blast/Firing Sequence	RFS	
+Blasting sequence for each ring within a blast
+
+9	Blasthole Angle	ANG	
+Angle between blasthole and stope wall (degree)
+
+10	Drillhole Type	HT	
+Type of Drillhole: HW, FW, Main or Easer drillhole (FW holes: 2, Main holes:3, HW holes:4, Easer holes:5)
+
+11	Hole Length	HL	
+Designed Length of Drillhole
+
+12	Breakthrough or non-breakthrough drillhole	BT
+Whether is drillhole breakthrough into the drift or level above or not (value of 1 for breakthrough and 0 for non-breakthrough)
+
+
+13	Fracture Frequency	FF	
+Number of fractures, joints, or discontinuities per unit length (O'Hara, Jacobi, & Sheets, 2017)
+
+			
+14	Effective Radius Factor 1 ERF
+Distance from the centre point in stope to the stope wall (m)
+			
+
+
+15	Rock Quality Designation2 RQD	
+RQD %=((Sum of lengths of core pieces ≥10 cm)/(Total length of core run))×100
+
+16	Stress Ratio3	SR	
+SR=((S1))/((S3))
+
+			
+
