@@ -1,4 +1,4 @@
-# 🛠️ OB/UB Classification Tool
+# OB/UB Classification Tool
 
 This repository contains a **Streamlit-based GUI prototype** for classifying underground drillholes as:
 
@@ -37,7 +37,7 @@ Design Warnings: Examples (e.g., excessive DFE, short holes, primer location)
 
 Lightweight GUI: Built with Streamlit for accessibility
 
-📁 Repository Structure
+ Repository Structure
 gp-logit-classifier/
 │
 ├── gui_classifier.py             # Streamlit app script
